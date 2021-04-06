@@ -50,11 +50,6 @@ ignore-detected-registered-commands: true
 # https://wiki.chatsentry.xyz/word-and-phrase-filter-block-list-guide
 
 blocked-words-and-phrases:
-#
-#
-# ENGLISH
-#
-#
 - "exact::anus"
 - "arrse"
 - "ass fucker"
@@ -551,8 +546,8 @@ blocked-words-and-phrases:
 - "horny"
 - "hooter"
 - "hooters"
-- "hoor"
-- "herp"
+- "exact::hoor"
+- "exact::herp"
 - "hell"
 - "gtfo"
 - "get the fuck out"
@@ -614,11 +609,6 @@ blocked-words-and-phrases:
 - "abbo"
 - "nigwhore"
 - "hoe"
-#
-#
-# SPANISH
-#
-#
 - "a tomar por culo"
 - "a tomar por saco"
 - "anda a cagar"
@@ -676,11 +666,6 @@ blocked-words-and-phrases:
 # Similarity checking is not active on these entries & character case does not matter.
 # Set to "whitelisted-words-and-phrases: []" to have an empty list.
 whitelisted-words-and-phrases:
-#
-#
-# ENGLISH
-#
-#
 - "bad"
 - "ban"
 - "darn"
@@ -714,11 +699,6 @@ whitelisted-words-and-phrases:
 - "s perm"
 - "been"
 - "bean"
-#
-#
-# SPANISH
-#
-#
 - "por"
 - "madre"
 - "padre"
